@@ -7,6 +7,8 @@ import {
   TableColumn,
   TableValue,
 } from './components/AppBuilding';
+import AccordionDemo, { DEFAULT_ACCORDIAN_ITEMS } from './components/Accordian';
+
 export const PLASMIC = initPlasmicLoader({
   projects: [
     {
@@ -54,6 +56,24 @@ const DEFAULT_ITEMS = [
 // the /plasmic-host page of your nextjs app (for example,
 // http://localhost:3000/plasmic-host).  See
 // https://docs.plasmic.app/learn/app-hosting/#set-a-plasmic-project-to-use-your-app-host
+
+PLASMIC.registerComponent(AccordionDemo, {
+  name: 'Accordion',
+  props: {
+    items: {
+      type: 'array',
+      defaultValue: DEFAULT_ACCORDIAN_ITEMS,
+    },
+    collapsible: {
+      type: 'boolean',
+      defaultValue: true,
+    },
+    type: {
+      type: 'choice',
+      options: ['single', 'multiple'],
+    },
+  },
+});
 
 PLASMIC.registerComponent(DataTable, {
   name: 'DataTable',
@@ -186,6 +206,10 @@ PLASMIC.registerComponent(Section, {
     },
     hideHeading: {
       type: 'boolean',
+    },
+    label: {
+      type: 'string',
+      defaultValue: 'Add Text',
     },
   },
 });
