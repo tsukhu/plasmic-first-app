@@ -59,7 +59,7 @@ export function DataTable(props: TableProps) {
           key: columnIndex,
           render: (value: any, record: any, rowIndex: any) => {
             return (
-              <DataProvider name="currentRow" data={record}>
+              <DataProvider name="currentRow" data={record} key={rowIndex}>
                 <DataProvider name="currentRowIndex" data={rowIndex}>
                   <DataProvider name="currentColumn" data={value}>
                     {repeatedElement(rowIndex, columnTemplate)}

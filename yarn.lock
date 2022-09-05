@@ -208,64 +208,64 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@plasmicapp/host@1.0.72":
-  version "1.0.72"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/host/-/host-1.0.72.tgz#10c91b590a4543d28c77e92822e85d2c6b6f057c"
-  integrity sha512-KnQK+fNJ7HMVLZ3FN6UqjAnGg3Fi4yDU9DfHtR456O95OpZQiAW9BKAN3jHfAsQAO5n2/ebhdG/LxNKqkPMffw==
+"@plasmicapp/host@1.0.78":
+  version "1.0.78"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/host/-/host-1.0.78.tgz#abe1f9f9cc483751bb5ee41bc380efce51ba7523"
+  integrity sha512-hlxnPjWycqrh7Xd57RuxrXv985Qe0nK79g4mjarXjYkwlJFuBJLaUW2fIH7uzncs50RC7ktSIOarZsDvyGDf1Q==
   dependencies:
     window-or-global "^1.0.1"
 
-"@plasmicapp/loader-core@1.0.80":
-  version "1.0.80"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/loader-core/-/loader-core-1.0.80.tgz#3e06605cc5e513f752dbc11375bd94081b26f46c"
-  integrity sha512-ZHD09J0UUW1LDy8UaNH6wzTORqzxUzDtmm+8fNuys18Y91EM+ZlUN835pyQZmnmCvX24I6swZW8a33V8h79p3Q==
+"@plasmicapp/loader-core@1.0.82":
+  version "1.0.82"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/loader-core/-/loader-core-1.0.82.tgz#aeda78a9e2190550402b1cfaa7d89dc0b61a5d7f"
+  integrity sha512-GiD9cCGtHoZ21PUv3E6cVAaqqsZHzNGQNodY/E2YEzRqWyimpalpAgV4ge6VzydHU1CURUfWsqZ0B3ZDgOB66w==
   dependencies:
-    "@plasmicapp/loader-fetcher" "1.0.9"
+    "@plasmicapp/loader-fetcher" "1.0.10"
 
-"@plasmicapp/loader-edge@1.0.15":
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/loader-edge/-/loader-edge-1.0.15.tgz#904dd1bb215a2e801ae2f41e15bf867697585560"
-  integrity sha512-ZYRRysK3c0E8C6zEbcFECvNZJSg+qVy3x3EhdAKR+x3HR5l0ebEBsbbO7GRsatxYdnP0oD39GBxlXslzJivHjw==
+"@plasmicapp/loader-edge@1.0.16":
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/loader-edge/-/loader-edge-1.0.16.tgz#40443db9479f611306c12a0f56dd3b1cd0018ce7"
+  integrity sha512-TCJogYuVtO0NbNO7XPAWHM9aJP+/57kCrgMcRIUvMDeDWKLrEpjL/uDWMegJ687GciO1LVJTl3eQhqY64f93CA==
   dependencies:
-    "@plasmicapp/loader-fetcher" "1.0.9"
-    "@plasmicapp/loader-splits" "1.0.14"
+    "@plasmicapp/loader-fetcher" "1.0.10"
+    "@plasmicapp/loader-splits" "1.0.15"
 
-"@plasmicapp/loader-fetcher@1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/loader-fetcher/-/loader-fetcher-1.0.9.tgz#777c825168c453e2fe0eac061f4b3c056599dad5"
-  integrity sha512-KmSLK/A8kZbutAgPwXtH9dZAq68ISF3IaV2u9Wbl93pYtkictVPNScEkbqiAoULz2bS0lkusbqkewvf7nzPNjw==
+"@plasmicapp/loader-fetcher@1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/loader-fetcher/-/loader-fetcher-1.0.10.tgz#78d8e8dbd7c3017471ef27608c5af4989088c1eb"
+  integrity sha512-HFZXsRNeaZz8ikQuG9kl6+bTCZO2cdJesJZKND8svJ+annH1zIJ6aRLJlI3pRDTJvbbTOIWa56fTGjIVGR1hLA==
   dependencies:
     isomorphic-unfetch "^3.1.0"
 
-"@plasmicapp/loader-nextjs@^1.0.166":
-  version "1.0.166"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/loader-nextjs/-/loader-nextjs-1.0.166.tgz#fe7f53551c74aea893147db3e03e539fa4a1f0a8"
-  integrity sha512-/JMlnglvPGlVcg+bueAHjjBtwxtZYueenJgY1TRdc6tEJWLXYG224H2oBaSqmoCbu05pVxYhR1dhgqWx3PV0yg==
+"@plasmicapp/loader-nextjs@^1.0.182":
+  version "1.0.182"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/loader-nextjs/-/loader-nextjs-1.0.182.tgz#b2490e8fabe8eb6de604a35ace353519692e1a55"
+  integrity sha512-dWUJDXD0CuuxWx98ji2vmg7om32NhSeID2ivnaxIyPD782d6wZzLLPY8Mt8YzDe/C8TlYwhDB8QR38dshPHOqQ==
   dependencies:
-    "@plasmicapp/loader-core" "1.0.80"
-    "@plasmicapp/loader-edge" "1.0.15"
-    "@plasmicapp/loader-react" "1.0.161"
+    "@plasmicapp/loader-core" "1.0.82"
+    "@plasmicapp/loader-edge" "1.0.16"
+    "@plasmicapp/loader-react" "1.0.175"
     "@plasmicapp/watcher" "1.0.67"
 
-"@plasmicapp/loader-react@1.0.161":
-  version "1.0.161"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/loader-react/-/loader-react-1.0.161.tgz#5f538678c0e53acd55209ebb0e3425c77b02b259"
-  integrity sha512-wGUsiCJ0a1+zTmyDyqU1PBx5ZkcSG9hkaaGloYgPV4afaQXw2JsAdb58rGM5rn4XXcnjglaHUcrMLgrwVjwz7g==
+"@plasmicapp/loader-react@1.0.175":
+  version "1.0.175"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/loader-react/-/loader-react-1.0.175.tgz#b6603d7d93d27e9768d9675520cf1f54a0b78d71"
+  integrity sha512-IADDksYd1UljiT1L5gt+QpGPI7jNTYCYruV43POPLjjVvBtc/z629Vg3e4OB+Ou/LQSUViA6MO5I1e0QBZXZLQ==
   dependencies:
-    "@plasmicapp/host" "1.0.72"
-    "@plasmicapp/loader-core" "1.0.80"
-    "@plasmicapp/loader-splits" "1.0.14"
+    "@plasmicapp/host" "1.0.78"
+    "@plasmicapp/loader-core" "1.0.82"
+    "@plasmicapp/loader-splits" "1.0.15"
     "@plasmicapp/query" "0.1.53"
     pascalcase "^1.0.0"
     react-is "^17.0.2"
     react-ssr-prepass "^1.4.0"
 
-"@plasmicapp/loader-splits@1.0.14":
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/loader-splits/-/loader-splits-1.0.14.tgz#a061b66cc6c0828c40927daa9fd15a989289d8fd"
-  integrity sha512-knZX8gI+s992vGRXQ+tp4EcaJHPV4MXy90tq8nZht/V3tp7DqRuYnSlhuX8/yP9X+uyANALQuNsw9dmApHePIA==
+"@plasmicapp/loader-splits@1.0.15":
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/loader-splits/-/loader-splits-1.0.15.tgz#1d2f3f7655bc5de6b94517472df3290afdc10987"
+  integrity sha512-JO0HGPKZ5aZAkfLszD3bzA/932906nRwfB1MNhmtgxazjn8EUs45OMJF8GAb5fGwvBuwMLEW9ER1yk11XS4TEg==
   dependencies:
-    "@plasmicapp/loader-fetcher" "1.0.9"
+    "@plasmicapp/loader-fetcher" "1.0.10"
     json-logic-js "^2.0.2"
 
 "@plasmicapp/query@0.1.53":
@@ -283,10 +283,10 @@
   dependencies:
     socket.io-client "^4.1.2"
 
-"@plasmicpkgs/antd@^0.0.87":
-  version "0.0.87"
-  resolved "https://registry.yarnpkg.com/@plasmicpkgs/antd/-/antd-0.0.87.tgz#ea9635b428f901e446086f193670e30abdd663f9"
-  integrity sha512-GgBjQA6/inwXXxk3H4V6piOzMeYqpPtG8WwFqHwcxYovNAM75u7SPgWvFKDBmcIokGvn2dcTGZlcw0gjJZdTjA==
+"@plasmicpkgs/antd@^0.0.93":
+  version "0.0.93"
+  resolved "https://registry.yarnpkg.com/@plasmicpkgs/antd/-/antd-0.0.93.tgz#bb2cbd200a6c19a20b2530c56c6aef3793d8a28b"
+  integrity sha512-7RXCKpRV+y7c7AiWBeooYd4qxaSFfSX0PpGjpaHyTyfO5SN72ENnP/m4D5iKBkIRqhxvz0gJ3pocpLqcFWw8ew==
 
 "@radix-ui/colors@^0.1.8":
   version "0.1.8"
